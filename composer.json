@@ -1,0 +1,31 @@
+{
+  "name": "jasin755/maps",
+  "type": "library",
+  "description": "Tool for paste google map to the page with markers",
+  "keywords": [
+    "google",
+    "maps",
+    "nette"
+  ],
+  "homepage": "https://github.com/jasin755/Maps",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Nikolaj Pognerebko",
+      "email": "pognerebko@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "nette/nette": ">=2.1",
+    "nette/tester": "~1.6",
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jashin\\Maps\\": "src"
+    }
+  }
+}
