@@ -7,7 +7,7 @@
 
 var GoogleMap = GoogleMap || {};
 
-GoogleMap = function (element) {
+GoogleMap = function (lement) {
 	this.element = element;
 	this.map;
 	this.basePosition;
